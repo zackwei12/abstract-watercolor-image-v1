@@ -1,0 +1,4 @@
+interface:
+  display_name: "Abstract Watercolor Image v1"
+  short_description: "Turn photos into bright abstract watercolor color-block compositions"
+  default_prompt: "Use $abstract-watercolor-image-v1 to transform this image into a minimal abstract watercolor made from bright irregular color blocks on warm textured paper."
