@@ -1,0 +1,41 @@
+{
+  "skill_name": "abstract-watercolor-image-v1",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Use $abstract-watercolor-image-v1 to turn this group photo into bright watercolor color blocks. Keep the group arrangement but remove human features.",
+      "expected_output": "Uses Photo Input Mode, preserves broad placement, overlap and gesture, removes facial and anatomical detail, generates a watercolor-block image, and checks that it does not drift into cartoon, vector, or photorealistic rendering.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Keep the embrace readable through shape overlap, but make the people only abstract painted masses.",
+      "expected_output": "Reduces figures to a few irregular watercolor blocks each, keeps the central interaction readable, and avoids faces, hands, clothing detail, outlines, typography and realistic anatomy.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Analyze these watercolor references and separate fixed rules from variable rules. Give me a reusable prompt without copying exact subjects.",
+      "expected_output": "Uses Reference Analysis Mode, reports observed evidence, fixed system, variable system and sample residue, then returns a source-safe reusable prompt and avoid list without claiming an image was generated.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Only give me the final prompt for a bright abstract watercolor crowd scene. No image.",
+      "expected_output": "Uses Prompt-only Mode, returns a concrete production prompt, variation recipe and negative constraints, and does not imply generation or inspection.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Make this photo much simpler. No clock, no text, no faces, no outlines, just watercolor blocks.",
+      "expected_output": "Explicitly enforces the hard constraints, removes literal detail, uses large hand-painted masses and visible paper, and rejects any introduced clock, text, iconography, facial features or vector outlines.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Turn this busy street scene into the same watercolor style while keeping only the main visual balance.",
+      "expected_output": "Extracts roughly 5 to 12 dominant masses, removes minor architecture and signage, preserves left-right and foreground-background balance, and keeps the image sparse and abstract.",
+      "files": []
+    }
+  ]
+}
